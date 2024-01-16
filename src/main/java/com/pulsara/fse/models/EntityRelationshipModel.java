@@ -24,7 +24,7 @@ import jakarta.persistence.Table;
  * @see RelationshipType
  * @see EntityRelationshipRepository
  * @see EntityRelationshipService
- * @author Your Name
+ * @author Sridhar Chodavarapu
  * @version 1.0
  */
 
