@@ -45,7 +45,7 @@ The application will start, and you can access it at http://localhost:8080.
 
 ## API Endpoints
 
-- Endpoint 1: /api/entity-relationships/by-source/{sourceEntityId}
+1. Endpoint 1: /api/entity-relationships/by-source/{sourceEntityId}
 
 Description: Retrieve relationships by source entity.
 Method: GET
@@ -56,6 +56,6 @@ Examples:
 - http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSPORT
 - http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSFER,MUTUAL_AID,TRANSPORT
 
-- Endpoint 2: /api/entities
+2. Endpoint 2: /api/entities
 
 Description: Retrieve all entities
