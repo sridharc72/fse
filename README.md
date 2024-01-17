@@ -26,12 +26,12 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-   git clone https://github.com/sridharc72/fse.git 
-   cd fse
+   `git clone https://github.com/sridharc72/fse.git`
+   `cd fse`
 
 2. Build the project using maven
 
-    mvn clean install
+    `mvn clean install`
 
 ## Running the Application
 
@@ -52,9 +52,9 @@ Method: GET
 Parameters: sourceEntityId (Long), relationshipTypes (Optional Set<String>)
 
 Examples: 
-. http://localhost:8080/fse/api/entity-relationships/by-source/7
-. http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSPORT
-. http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSFER,MUTUAL_AID,TRANSPORT
+- http://localhost:8080/fse/api/entity-relationships/by-source/7
+- http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSPORT
+- http://localhost:8080/fse/api/entity-relationships/by-source/7?relationshipTypes=TRANSFER,MUTUAL_AID,TRANSPORT
 
 - Endpoint 2: /api/entities
 
